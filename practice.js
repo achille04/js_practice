@@ -275,15 +275,43 @@ const rollNumber = [5,1,3,6,9,8,7,4,11,10,12,13,15,14,19,18,17,16];
 
 rollNumber.sort(function(a, b){return a - b});
 document.getElementById("pNumber").innerHTML = rollNumber;
-0
+
+
 function myFunctionVote(){
 
-    let age = document.getElementById('age').value;
-    let votebale = (age < 18) ? "Can't Vote cause too young" : "Eligible to vote"
-    document.getElementById("demoVote").innerHTML = votebale;
+    let voteable;
+
+    let age = Number(document.getElementById('age').value);
+
+    if(isNaN(age)){
+
+        voteable = "Input is not a number to vote";
+
+    }
+    else{
+
+        voteable = age < 18 ? "Can't Vote cause too young" : "Eligible to vote";
+
+    }
+
+    document.getElementById("demoVote").innerHTML = voteable;
 
 }
 
-let age1 = 17;
 
-console.log( age1 >= 18 ? "You are an adult" : "You are not adult");
+let age1 = "19";
+
+age1 = Number(age1);
+
+if(isNaN(age1)){
+
+    console.log("Input is a Number");
+
+}
+
+else{
+
+    console.log(age1 < 18 ? "Not Eligible to vote" : "Eligible to vote");
+
+}
+
