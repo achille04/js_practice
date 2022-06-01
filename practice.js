@@ -275,7 +275,7 @@ const rollNumber = [5,1,3,6,9,8,7,4,11,10,12,13,15,14,19,18,17,16];
 
 rollNumber.sort(function(a, b){return a - b});
 document.getElementById("pNumber").innerHTML = rollNumber;
-
+0
 function myFunctionVote(){
 
     let age = document.getElementById('age').value;
@@ -283,3 +283,7 @@ function myFunctionVote(){
     document.getElementById("demoVote").innerHTML = votebale;
 
 }
+
+let age1 = 17;
+
+console.log( age1 >= 18 ? "You are an adult" : "You are not adult");
