@@ -374,7 +374,7 @@ switch (new Date().getDay()){
 
 }
 
-document.getElementById("switch").innerHTML = 'It is' + day;
+document.getElementById("switch").innerHTML = 'It is ' + day;
 
  
 let age3 = 18;
@@ -395,3 +395,24 @@ else {
     console.log("Welcome to the real world!!!");
 }
 
+/* let text2 = "";
+
+const car1 = ['BMW', 'Marcedez', 'Saab', "Wolkwagon", "Bugatti", "Viper", "Mclearn"];
+
+for(let i = 0 < car1.length; i++;) {
+
+    text2 += car1[i] + "<br>";
+
+}
+
+document.getElementById("car1").innerHTML = text2;
+ */
+
+const cars4 = ['BMW', 'Marcedez', 'Saab', "Wolkwagon", "Bugatti", "Viper", "Mclearn"];
+
+let text4 = "";
+for (let i = 0; i < cars4.length; i++) {
+  text4 += cars4[i] + "<br>";
+}
+
+document.getElementById("car3").innerHTML = text4;
