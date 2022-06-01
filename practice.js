@@ -348,7 +348,6 @@ switch (new Date().getDay()){
     day = "Sunday"
     break;
     
-
     case 1:
     day = "Monday"
     break;
@@ -376,3 +375,23 @@ switch (new Date().getDay()){
 }
 
 document.getElementById("switch").innerHTML = 'It is' + day;
+
+ 
+let age3 = 18;
+
+if (age3 < 18){
+
+    console.log("You are stupid");
+
+}
+
+else if (age3 === 18){
+
+    console.log("You are okay");
+
+}
+
+else {
+    console.log("Welcome to the real world!!!");
+}
+
