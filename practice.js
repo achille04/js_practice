@@ -315,3 +315,28 @@ else{
 
 }
 
+console.log("5" == 5);
+console.log("5" === 5);
+
+const time = new Date().getHours();
+let greetings;
+if(time < 10){
+
+    greetings = "Good Day"
+
+} 
+
+else if (time < 20){
+
+    greetings = "Good Day"
+
+}
+
+else {
+
+    greetings = "Good Evening"
+
+}
+
+document.getElementById("time_get").innerHTML = greetings;
+
