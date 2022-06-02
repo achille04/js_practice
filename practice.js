@@ -416,3 +416,11 @@ for (let i = 0; i < cars4.length; i++) {
 }
 
 document.getElementById("car3").innerHTML = text4;
+
+const num = [ 'a', 'b', 'c', 'd', 'e', 'f', 'g', 'h', 'i', 'j', 'k', 'j']
+
+for(i = 1; i < num.length; i++){
+
+    console.log(i);
+
+}
