@@ -1,4 +1,4 @@
- let text1 = "I dont want to "
+let text1 = "I don't want to "
 text1 += "leave Football"
 
 document.getElementById("demo").innerHTML = text1;
@@ -395,18 +395,6 @@ else {
     console.log("Welcome to the real world!!!");
 }
 
-/* let text2 = "";
-
-const car1 = ['BMW', 'Marcedez', 'Saab', "Wolkwagon", "Bugatti", "Viper", "Mclearn"];
-
-for(let i = 0 < car1.length; i++;) {
-
-    text2 += car1[i] + "<br>";
-
-}
-
-document.getElementById("car1").innerHTML = text2;
- */
 
 const cars4 = ['BMW', 'Marcedez', 'Saab', "Wolkwagon", "Bugatti", "Viper", "Mclearn"];
 
@@ -435,4 +423,13 @@ for(let xCar of rCars){
 
 }
 
-document.getElementById("forOf").innerHTML = text5;
+document.getElementById("forOf").innerHTML = text5; 
+
+let text7 = "";
+let i = 0;
+while (i < 10) {
+  text += "<br> The number is " + i;
+  i++;
+}
+
+document.getElementById("while").innerHTML = text7;
