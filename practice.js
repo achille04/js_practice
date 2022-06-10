@@ -424,3 +424,15 @@ for(i = 1; i < num.length; i++){
     console.log(i);
 
 }
+
+const rCars = ["Porsche", "Ferrari", "Ford", "Pegani", "Bugatti", "Chevorlet", "McClearn", "BMW"]
+
+text5 = "";
+for(let xCar of rCars){
+
+    text5 = text5 + xCar + '<br>';
+    console.log(xCar);
+
+}
+
+document.getElementById("forOf").innerHTML = text5;
