@@ -3,7 +3,7 @@ text1 += "leave Football"
 
 document.getElementById("demo").innerHTML = text1;
 
-let text = 25 + 15 + " I dont want to" + 50 + 20;
+let text = 25 + 15 + " I don't want to" + 50 + 20;
 
 document.getElementById("demos").innerHTML = text;
 
@@ -19,7 +19,7 @@ let y = myFunction1(7, 3)
 
 function myFunction1(a, b) {
 
-    return a * b;
+    return a * b; 
 
 }
 
@@ -425,11 +425,24 @@ for(let xCar of rCars){
 
 document.getElementById("forOf").innerHTML = text5; 
 
+ 
+
 let text7 = "";
-let i = 0;
-while (i < 10) {
-  text += "<br> The number is " + i;
-  i++;
+let j = 0;
+while (j < 10) {
+  text7 += "<br> The number is " + j;
+  j++;
 }
 
-document.getElementById("while").innerHTML = text7;
+document.getElementById("while1").innerHTML = text7;
+
+/* let k = 0;
+let text9 = "";
+
+while(k < 10){
+    text9 += "The number is " + k;
+    console.log(text9);
+}
+
+document.getElementById("while2").innerHTML = text9; */
+
