@@ -439,8 +439,9 @@ document.getElementById("while1").innerHTML = text7;
 /* let k = 0;
 let text9 = "";
 
-while(k < 10){
+while(true){
     text9 += "The number is " + k;
+    i++;
     console.log(text9);
 }
 
