@@ -447,3 +447,22 @@ while(true){
 
 document.getElementById("while2").innerHTML = text9; */
 
+const animals = new Map ([
+
+    ["cat", 500],
+    ["dog", 1500],
+    ["ape", 2500]
+
+]);
+
+document.getElementById("map1").innerHTML = animals.get("cat");
+
+const animals1 = new Map;
+
+animals1.set("tortoise", 200)
+animals1.set("hedgehog", 1200)
+animals1.set("snake", 2200)
+
+animals1.set("tortoise", 1400)
+
+document.getElementById("map2").innerHTML = animals1.get("tortoise");
