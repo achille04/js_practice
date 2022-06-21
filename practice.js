@@ -482,3 +482,6 @@ for (const x of animals3.entries()){
 
 
 document.getElementById("map3").innerHTML = text8;
+
+document.getElementById("constructor").innerHTML = "text8".constructor + "<br>" + (3.96).constructor;
+
