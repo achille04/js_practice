@@ -449,7 +449,7 @@ document.getElementById("while2").innerHTML = text9; */
 
 const animals = new Map ([
 
-    ["cat", 500],
+    ["cat", 500], 
     ["dog", 1500],
     ["ape", 2500]
 
@@ -466,3 +466,19 @@ animals1.set("snake", 2200)
 animals1.set("tortoise", 1400)
 
 document.getElementById("map2").innerHTML = animals1.get("tortoise");
+
+const animals3 = new Map ([
+
+    ["giraffe", 5000],
+    ["zebra", 5100],
+    ["hippo", 5300]
+
+]);
+
+let text8 = "";
+for (const x of animals3.entries()){
+    text8 += x + "<br>"
+}
+
+
+document.getElementById("map3").innerHTML = text8;
