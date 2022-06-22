@@ -413,7 +413,7 @@ for(i = 1; i < num.length; i++){
 
 }
 
-const rCars = ["Porsche", "Ferrari", "Ford", "Pegani", "Bugatti", "Chevorlet", "McClearn", "BMW"]
+const rCars = ["Porsche", "Ferrari", "Ford", "Pagani", "Bugatti", "Chevorlet", "McClearn", "BMW"]
 
 text5 = "";
 for(let xCar of rCars){
