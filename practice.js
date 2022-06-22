@@ -495,3 +495,22 @@ try{
 
 }
 
+function myFunctionThrow() {
+    const message = document.getElementById("catch");
+    message.innerHTML = "";
+    let x = document.getElementById("throw").value;
+    try { 
+      if(x == "")  throw "is empty";
+      if(isNaN(x)) throw "is not a number";
+      x = Number(x);
+      if(x > 10)   throw "is too high";
+      if(x < 5)  throw "is too low";
+    }
+    catch(err) {
+      message.innerHTML = "Input " + err;
+    }
+    finally {
+      document.getElementById("throw").value = "";
+    }
+  }
+
