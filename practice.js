@@ -485,3 +485,13 @@ document.getElementById("map3").innerHTML = text8;
 
 document.getElementById("constructor").innerHTML = "text8".constructor + "<br>" + (3.96).constructor;
 
+/*-------------------------------------------- Error -------------------------------------------------------*/
+
+try{
+    // Regular Code
+} catch(err){
+
+    console.log(err);
+
+}
+
