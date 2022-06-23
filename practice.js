@@ -522,3 +522,10 @@ function myFunctionThrow() {
   }
 
   startFan()
+
+  let str = "Hello"
+  if(0>5){
+    str = "Peter"
+  }
+
+  console.log(str);
