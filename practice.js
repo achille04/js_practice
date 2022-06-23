@@ -514,3 +514,11 @@ function myFunctionThrow() {
     }
   }
 
+
+  function startFan(){
+
+    console.log('asfdfadsdsfsfd');
+
+  }
+
+  startFan()
