@@ -584,3 +584,21 @@ console.log(person1.fullName1.call(person2));
 
 let myArrowFunction = (a,b) => a * b;
 console.log(myArrowFunction(5,6));
+
+let hello;
+
+hello = (value) => "Hello World" + " " + value;
+
+console.log(hello("What's Up"));
+
+let hello1;
+
+hello1 = value => "Hello World" + " " + value;
+
+console.log(hello1("What's Up, How is it Going"));
+
+let hello2;
+
+hello2 = (value, newValue) => "Hello World" + " " + value + " " + newValue;
+
+console.log(hello2("What's Up, How is it Going?", "Having Fun?"));
