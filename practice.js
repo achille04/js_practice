@@ -541,9 +541,46 @@ var x1;
 
 var y1;
 
-console.log(typeof name1)
-let name1 = "Blah"
+/* console.log(typeof name1)
+let name1 = "Blah" */
 
 console.log(str1);
 var str1 = "Hello Peter"
 
+const person = {
+    firstName: "Doc",
+    lastName: "Ock",
+    id: 505,
+    fullName : function(){
+       return this.firstName + " " + this.lastName;
+    },
+
+  /*   getFullName: function(){
+
+        return this.fullName(); 
+    }*/
+
+
+};
+
+console.log(person.fullName());
+
+document.getElementById("this_related").innerHTML = person.fullName();
+
+const person1 = {
+    fullName1: function() {
+      return this.firstName + " " + this.lastName;
+    }
+  }
+  
+  const person2 = {
+    firstName:"Andrew",
+    lastName: "Garfield",
+  }
+
+console.log(person1.fullName1.call(person2));
+  
+/*-------------------------------------------- Arrow_Function -------------------------------------------------------*/
+
+let myArrowFunction = (a,b) => a * b;
+console.log(myArrowFunction(5,6));
