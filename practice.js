@@ -616,3 +616,21 @@ const crr = () => {
 }
 
 console.log(crr());
+
+// Create a Class method named "age", that returns the Car age
+
+class Car {
+    constructor (name1, year1){
+        this.name1 = name1;
+        this.year1 = year1;
+
+    }
+
+    age(){
+        let date = new Date();
+        return date.getFullYear() - this.year1
+    }
+}
+
+let myCar = new Car("Ford", 2014);
+document.getElementById("car_age").innerHTML = "My Car is " + myCar.age() + " years Old"
