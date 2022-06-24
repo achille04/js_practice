@@ -603,8 +603,16 @@ hello2 = (value, newValue) => "Hello World" + " " + value + " " + newValue;
 
 console.log(hello2("What's Up, How is it Going?", "Having Fun?"));
 
-let hello3;
-
-hello3 = () => "Shortest Version of a Function"
+let hello3 = () => "Shortest Version of a Function"
 
 console.log(hello3());
+
+let brr = [];
+brr [40] = "Hello Peter"
+console.log(brr[4]);
+
+const crr = () => {
+    return this;
+}
+
+console.log(crr());
