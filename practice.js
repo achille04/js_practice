@@ -602,3 +602,9 @@ let hello2;
 hello2 = (value, newValue) => "Hello World" + " " + value + " " + newValue;
 
 console.log(hello2("What's Up, How is it Going?", "Having Fun?"));
+
+let hello3;
+
+hello3 = () => "Shortest Version of a Function"
+
+console.log(hello3());
