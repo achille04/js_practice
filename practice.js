@@ -634,3 +634,21 @@ class Car {
 
 let myCar = new Car("Ford", 2014);
 document.getElementById("car_age").innerHTML = "My Car is " + myCar.age() + " years Old"
+
+class Person{
+    constructor(name2, age2) {
+        this.name2 = name2;
+        this.age2 = age2;
+    }
+    
+    play(status){
+        console.log(`${this.name2} is playing ${status}`);
+    }
+
+}
+
+const person3 = new Person ("Cristiano Roanldo", 30); // Instance
+const person4 = new Person ("Harry Maguire", 27)
+
+person3.play("Okay");
+person4.play("Bullshit, Even De Gea doesn't pass him the ball! :3 ");
