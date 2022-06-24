@@ -531,9 +531,12 @@ function myFunctionThrow() {
   console.log(str);
   
 /*-------------------------------------------- Hoisting -------------------------------------------------------*/
+y1 = 12;
 
-x = 5;
+x1 = 5;
 
-console.log(x);
+console.log(x1 * y1);
 
-var x;
+var x1;
+
+var y1;
