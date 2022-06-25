@@ -644,6 +644,7 @@ class Person{
     play(status){
 
         console.log(`${this.name2} is playing ${status}`);
+
         const statusOfPlay = `${this.name2} is playing ${status} at ${this.age2}`;
         document.getElementById("cr7playing").innerHTML = statusOfPlay;
 
@@ -674,3 +675,8 @@ let person5 = {
 }
 
 console.log(JSON.stringify(person5));
+
+let a = "string";
+let b = "sstring"
+
+console.log(a - b);
