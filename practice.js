@@ -646,7 +646,8 @@ class Person{
         console.log(`${this.name2} is playing ${status}`);
 
         const statusOfPlay = `${this.name2} is playing ${status} at ${this.age2}`;
-        document.getElementById("cr7playing").innerHTML = statusOfPlay;
+        const playStatus = document.getElementById("cr7playing")
+        playStatus.innerHTML = statusOfPlay;
 
     }
 
@@ -680,3 +681,23 @@ let a = "string";
 let b = "sstring"
 
 console.log(a - b);
+
+function myFunction5(a) {
+
+    let b = 10;
+    b = b + a;
+
+}
+
+console.log(myFunction5()); // Undefined
+
+function myFunction6(a) {
+
+    let 
+    power = 10;
+    return
+    a * power;
+
+}
+
+console.log(myFunction6(10));
