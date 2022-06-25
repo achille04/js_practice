@@ -667,3 +667,10 @@ const obj = JSON.parse(text9)
 console.log(obj);
 
 console.log(obj.employees[2].firstName);
+
+let person5 = {
+    firstName: "Cristiano",
+    lastName: "Ronaldo"
+}
+
+console.log(JSON.stringify(person5));
