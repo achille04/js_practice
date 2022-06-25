@@ -657,3 +657,13 @@ const person4 = new Person ("Harry Maguire", 27);
 person3.play("Okay");
 person4.play("Bullshit, Even De Gea doesn't pass him the ball! -_- ");
 
+let text9 = 
+'{"employees" : [' + 
+'{"firstName":"John", "lastName": "Doe"},' +
+'{"firstName":"Anna", "lastName": "Frank"},' +
+'{"firstName":"Adolf", "lastName": "Hitler"} ]}';
+
+const obj = JSON.parse(text9)
+console.log(obj);
+
+console.log(obj.employees[2].firstName);
