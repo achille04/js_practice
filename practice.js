@@ -642,13 +642,18 @@ class Person{
     }
     
     play(status){
+
         console.log(`${this.name2} is playing ${status}`);
+        const statusOfPlay = `${this.name2} is playing ${status} at ${this.age2}`;
+        document.getElementById("cr7playing").innerHTML = statusOfPlay;
+
     }
 
 }
 
 const person3 = new Person ("Cristiano Roanldo", 30); // Instance
-const person4 = new Person ("Harry Maguire", 27)
+const person4 = new Person ("Harry Maguire", 27);
 
 person3.play("Okay");
-person4.play("Bullshit, Even De Gea doesn't pass him the ball! :3 ");
+person4.play("Bullshit, Even De Gea doesn't pass him the ball! -_- ");
+
