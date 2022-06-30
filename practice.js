@@ -701,3 +701,11 @@ function myFunction6(a) {
 }
 
 console.log(myFunction6(10));
+
+let text10 = "";
+
+for(i = 1; i < 10; i += 2){
+    text10 += "The Odd Numbers are " + i + "<br/>"
+  }
+
+  document.getElementById('let_Odd_Numbering').innerHTML = text10;
