@@ -709,3 +709,10 @@ for(i = 1; i < 10; i += 2){
   }
 
   document.getElementById('let_Odd_Numbering').innerHTML = text10;
+
+  let text11 = "";
+
+  for(i = 9; i > 0; i -= 2){
+    text11 = text11 + "Negative odds are " + i + "<br/>" 
+  }
+  document.getElementById('let_Neg_Odd_Numbering').innerHTML = text11;
