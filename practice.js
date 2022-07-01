@@ -721,3 +721,4 @@ for(i = 1; i < 10; i += 2){
 
 const x2 = (x,y) => x * y;
 document.getElementById("es6_arrow_function").innerHTML = x2(5,6) + " Using Arrow Function";
+
