@@ -716,3 +716,8 @@ for(i = 1; i < 10; i += 2){
     text11 = text11 + "Negative odds are " + i + "<br/>" 
   }
   document.getElementById('let_Neg_Odd_Numbering').innerHTML = text11;
+
+/*-------------------------------------------- ES6 -------------------------------------------------------*/
+
+const x2 = (x,y) => x * y;
+document.getElementById("es6_arrow_function").innerHTML = x2(5,6) + " Using Arrow Function";
