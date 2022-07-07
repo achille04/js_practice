@@ -722,3 +722,11 @@ for(i = 1; i < 10; i += 2){
 const x2 = (x,y) => x * y;
 document.getElementById("es6_arrow_function").innerHTML = x2(5,6) + " Using Arrow Function";
 
+let words = "Ilaria Ragone"
+let text12 = "";
+
+for(let word of words){
+    text12 = text12 + word + "<br/>"
+}
+
+document.getElementById("loop_over_array").innerHTML = text12;
