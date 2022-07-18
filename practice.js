@@ -731,7 +731,7 @@ for(let word of words){
 
 // document.getElementById("loop_over_array").innerHTML = text12;
  
-let gameCompanies = {
+/* let gameCompanies = {
     name1: "Ubisoft",
     games: ["Assassin's Creed", "Far Cry", "Tom Clancy's Rainbow Six Extraction", "Watch Dogs", "Prince of Persia: The Sands of Time"],
     printGameList: function(){
@@ -744,4 +744,16 @@ let gameCompanies = {
 
 };
 
-gameCompanies.printGameList()
+gameCompanies.printGameList() */
+ 
+let gameCompanies1 = {
+    name2: "Ubisoft",
+    games1: ["Assassin's Creed", "Far Cry", "Tom Clancy's Rainbow Six Extraction", "Watch Dogs", "Prince of Persia: The Sands of Time"],
+    printGameList1: function(){
+        this.games1.forEach((a) =>document.getElementById("foreach_fact").innerHTML = `${this.name2} created ${a}`)
+         /* console.log(`${this.name2} created ${a}`)) */ 
+    },
+
+};
+
+gameCompanies1.printGameList1()
