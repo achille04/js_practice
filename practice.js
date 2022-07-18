@@ -794,3 +794,12 @@ let result2 = numbers2.map((num1) => {
 
 console.log(numbers2);
 console.log(result2);
+
+
+let numbers3 = [ 1, 2, 3, 4, 5, 6, 7, 8, 9]
+
+let result3 = numbers3.reduce((prevValue, currentValue, currentIndex, arr) => {
+    return prevValue * currentValue;
+}, 0);
+
+console.log(result3);
