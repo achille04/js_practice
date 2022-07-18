@@ -785,3 +785,12 @@ let result = numbers1.find(function(currentValue){
 })
 
 console.log(result);
+
+let numbers2 = [ 25, 18, 19, 98, 14, 39, 17, 18, 29]
+
+let result2 = numbers2.map((num1) => {
+    return 2 * num1;
+})
+
+console.log(numbers2);
+console.log(result2);
