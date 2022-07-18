@@ -757,3 +757,22 @@ let gameCompanies1 = {
 };
 
 gameCompanies1.printGameList1()
+
+let age4 = 18;
+
+let type;
+if(age4 >= 18){
+    type = "Adult"
+} else{
+    type = "Child"
+}
+
+let age5 = 18;
+
+let type1 = (age5 >= 18) ? "I am an Adult" : "I am not an Adult";
+
+let age6 = 9;
+
+let type2 = age6 >= 18 ? "I am an Adult" : age6 < 10 ? "I am a Child" : "I am a Young Man";
+
+console.log(type2);
