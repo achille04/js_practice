@@ -776,3 +776,12 @@ let age6 = 9;
 let type2 = age6 >= 18 ? "I am an Adult" : age6 < 10 ? "I am a Child" : "I am a Young Man";
 
 console.log(type2);
+
+let numbers1 = [ 25, 18, 19, 98, 14, 39, 17, 18, 29]
+// let numbers1 = [ 1, 2, 3, 4, 5, 6, 10]
+
+let result = numbers1.find(function(currentValue){
+    return currentValue > 26;
+})
+
+console.log(result);
