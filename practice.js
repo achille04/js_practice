@@ -729,4 +729,19 @@ for(let word of words){
     text12 = text12 + word + "<br/>"
 }
 
-document.getElementById("loop_over_array").innerHTML = text12;
+// document.getElementById("loop_over_array").innerHTML = text12;
+ 
+let gameCompanies = {
+    name1: "Ubisoft",
+    games: ["Assassin's Creed", "Far Cry", "Tom Clancy's Rainbow Six Extraction", "Watch Dogs", "Prince of Persia: The Sands of Time"],
+    printGameList: function(){
+        let self = this;
+        this.games.forEach( function (a) {
+            console.log(`${self.name1} created ${a}`);
+            document.getElementById("foreach_fact").innerHTML = `${self.name1} created ${a}`;
+            });
+    },
+
+};
+
+gameCompanies.printGameList()
