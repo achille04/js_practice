@@ -803,3 +803,4 @@ let result3 = numbers3.reduce((prevValue, currentValue, currentIndex, arr) => {
 }, 0);
 
 console.log(result3);
+
