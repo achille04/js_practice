@@ -804,19 +804,19 @@ let result3 = numbers3.reduce((prevValue, currentValue, currentIndex, arr) => {
 
 console.log(result3);
 
-let x1 = 4;
+/* let x1 = 4;
 let y1 = 6;
 
-let z = x1 * y1;
+let z = x1 * y1; */
 
 const myObj = {
     name: "JavaScript",
     founder: "Brandon Eich",
     estd: "1995",
     ranking: '3',
-    x1,
+    /* x1,
     y1,
-    z
+    z */
 };
 
 let keys = Object.keys(myObj);
@@ -826,3 +826,9 @@ let entries = Object.entries(myObj);
 console.log(keys);
 console.log(values);
 console.log(entries);
+
+function myFunc(x = 10){
+    return x;
+}
+
+console.log(myFunc());
