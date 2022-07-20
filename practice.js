@@ -842,3 +842,54 @@ let newNumbers5 = [...numbers4, 5, 6];
 
 console.log(newNumbers4);
 console.log(newNumbers5);
+
+/*-------------------------------------------- Destructuring -------------------------------------------------------*/
+
+const user = {
+    id: "354",
+    name3: "Ezio Auditore",
+    age: 34
+}
+
+const {name3} = user;
+
+console.log(name3);
+
+
+const user1 = {
+    id: "354",
+    name3: "Ezio Auditore",
+    age: 34,
+    education: {
+        degree: "Masters"
+    },
+};
+
+const {education : {degree} = {} } = user1;
+
+console.log(degree);
+
+/*-------------------------------------------- Destructuring_Array -----------------------------------------------------*/
+
+let numbers5 = [1, 2,[300, 400, 500],  4, 5, 6]
+
+let [, , [, a1, b1]] = numbers5; 
+
+console.log(a1,b1);
+
+let a2 = 1;
+let b2 = 2;
+
+// Old Way
+/* 
+let temp = a2;
+a2 = b2;
+b2 = temp;
+
+console.log(a2, b2); */
+
+// New Way
+
+[b2, a2] = [a2, b2];
+
+console.log(a2, b2);
