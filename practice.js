@@ -804,3 +804,17 @@ let result3 = numbers3.reduce((prevValue, currentValue, currentIndex, arr) => {
 
 console.log(result3);
 
+const myObj = {
+    name: "JavaScript",
+    founder: "Brandon Eich",
+    estd: "1995",
+    ranking: '3'
+};
+
+let keys = Object.keys(myObj);
+let values = Object.values(myObj);
+let entries = Object.entries(myObj);
+
+console.log(keys);
+console.log(values);
+console.log(entries);
