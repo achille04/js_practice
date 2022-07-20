@@ -832,3 +832,13 @@ function myFunc(x = 10){
 }
 
 console.log(myFunc());
+
+/*-------------------------------------------- Spread_Operator -------------------------------------------------------*/
+
+let numbers4 = [1, 2, 3, 4];
+
+let newNumbers4 = [numbers4[0], numbers4[1], numbers4[2], 4, 5, 6];
+let newNumbers5 = [...numbers4, 5, 6];
+
+console.log(newNumbers4);
+console.log(newNumbers5);
