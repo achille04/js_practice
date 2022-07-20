@@ -893,3 +893,20 @@ console.log(a2, b2); */
 [b2, a2] = [a2, b2];
 
 console.log(a2, b2);
+
+
+/*-------------------------------------------- Tag_Template_Literals ---------------------------------------------------*/
+
+function modifier(strings, ...values){
+   
+    const m = strings.reduce((prev, current) => {
+        return prev + current + (values.length ? "Mr. " + values.shift() : "")
+    }, "");
+    return m;
+    
+}
+
+let player1  = "Cristiano Ronaldo"
+let player2  = "Lionel Messi"
+
+console.log(modifier `I wish to see ${player1} & ${player2} to play together once in their Lifetime`)
