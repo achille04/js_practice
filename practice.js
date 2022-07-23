@@ -911,3 +911,22 @@ let player2  = "Lionel Messi"
 
 console.log(modifier `I wish to see ${player1} & ${player2} to play together oncee in their Lifetime`)
 
+let xInObj = "";
+const myObj1 = {
+  name: "John",
+  age: 30,
+  cars: [
+    {name:"Ford", models:["Fiesta", "Focus", "Mustang"]},
+    {name:"BMW", models:["320", "X3", "X5"]},
+    {name:"Fiat", models:["500", "Panda"]}
+  ]
+}
+
+for(i in myObj1.cars){
+    xInObj = xInObj + "<h5>" + myObj1.cars[i].name + "</h5>"
+    for(let j in myObj1.cars){
+        xInObj = xInObj + "<h6>" + myObj1.cars[i].models[j] + "</h6>"
+    }
+}
+
+document.getElementById('obj_in').innerHTML = xInObj;

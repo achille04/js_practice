@@ -2,11 +2,25 @@
     margin-left: 10px;
 }
 
-h1, h2, h3, h4, h5, h6{
+h1, h2, h3, h4, h5{
   font-size: 60px;
   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
   text-align: center;
   color: #5B42F3;
+}
+
+h6{
+  font-size: 20px;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  text-align: center;
+  color: #60ac2d;
+}
+
+h5{
+  font-size: 30px;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  text-align: center;
+  color: #bc88c7;
 }
 
 p{
